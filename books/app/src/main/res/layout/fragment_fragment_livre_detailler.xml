@@ -1,0 +1,179 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nest_scrollview"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.malek.books.fragmentDetailler.FragmentLivreDetailler">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="5dp"
+        card_view:cardCornerRadius="20dp"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/langue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:text="Langue:"
+                android:padding="2dp"/>
+
+            <TextView
+                android:id="@+id/langue_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/info"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/langue"
+                android:padding="2dp"/>
+            <TextView
+                android:id="@+id/auteur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Editeur : "
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:layout_below="@+id/langue"/>
+            <TextView
+                android:id="@+id/auteur_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:layout_below="@+id/langue"
+                android:layout_toRightOf="@+id/auteur"/>
+            <TextView
+                android:id="@+id/pages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Pages: "
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:layout_below="@+id/auteur"/>
+            <TextView
+                android:id="@+id/pages_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:layout_toRightOf="@+id/pages"
+                android:layout_below="@+id/auteur"/>
+            <TextView
+                android:id="@+id/sortie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:text="Date de sortie : "
+                android:padding="2dp"
+                android:layout_below="@id/pages"/>
+            <TextView
+                android:id="@+id/sortie_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:layout_toRightOf="@id/sortie"
+                android:text="12/02/2011"
+
+                android:layout_below="@id/pages"/>
+            <TextView
+                android:id="@+id/categorie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Categorie: "
+                android:textColor="@color/black"
+
+                android:padding="2dp"
+                android:layout_below="@+id/sortie"/>
+            <TextView
+                android:id="@+id/categorie_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="2dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="romance"
+                android:layout_toRightOf="@+id/categorie"
+                android:layout_below="@+id/sortie"/>
+
+
+
+
+        </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="5dp"
+        card_view:cardCornerRadius="20dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/discription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+
+                android:textStyle="bold|italic"
+                android:padding="2dp"
+                android:text="Description :"
+                />
+            <TextView
+                android:id="@+id/auteur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/large_text"
+                android:padding="2dp"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

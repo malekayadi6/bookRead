@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BookRead</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_livre_detailler">LivreDetailler</string>
+    <string name="large_text">
+        Fils cadet d’un comte, Darius Lindsey n’a pas de fortune personnelle. Pour survivre, il n’a d’autre choix que de satisfaire les fantasmes coquins des dames de la haute société. Lorsque lord Longstreet, un politicien âgé en mal d’héritier, lui propose d’en concevoir un avec sa femme, Darius finit par accepter et rencontre Vivian. Une vraie lady prête à tous les sacrifices pour remplir ses devoirs d’épouse, mais totalement inexpérimentée dans le domaine de la volupté.
+Ce qui ne devait être qu’une transaction va se transformer en une initiation sensuelle qui bouleversera leurs vies.
+    </string>
+    <string name="title_activity_login">Connexion</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_inscription">InscriptionActivity</string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="title_activity_psote_livre">PsoteLivre</string>
+</resources>

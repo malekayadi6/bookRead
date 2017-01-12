@@ -1,0 +1,93 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+<android.support.design.widget.TextInputLayout
+
+        android:id="@+id/til_nomLivre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:textColorHint="@color/white">
+        <EditText
+            android:id="@+id/nomLivre"
+            android:singleLine="true"
+            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="nom de livre"/>
+</android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_langue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white">
+        <EditText
+            android:id="@+id/langueLivre"
+            android:singleLine="true"
+            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="langue"/>
+    </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/auteur_tl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white">
+                <EditText
+                    android:id="@+id/aj_auteur"
+                    android:singleLine="true"
+                    android:inputType="text"
+                    android:imeOptions="actionNext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:hint="Editeur"/>
+            </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/page_tl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white">
+        <EditText
+            android:id="@+id/aj_paje"
+            android:singleLine="true"
+            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Nombre des pages"/>
+    </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+
+                android:text="Date de sortie"
+                android:allowUndo="false" />
+            <Spinner
+                android:id="@+id/planets_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+</RelativeLayout>
+
